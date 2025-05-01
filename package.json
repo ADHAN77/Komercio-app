@@ -16,22 +16,23 @@
     "electron": "^35.0.3",
     "electron-builder": "^25.1.8"
   },
-  "build": {
-    "appId": "com.Komercio-app.electron",
-    "productName": "Komercio-app",
-    "files": [
-      "main.js",
-      "index.html",
-      "styles.css",
-      "Komercio-theme.css",
-      "assets/icon/sound",
-      "renderer.js",
-      "storage.js"
-    ],
-    "win": {
-      "target": "nsis",
-      "icon": "assets/icon/logo.ico"
-    },
+"build": {
+  "appId": "com.Komercio-app.electron",
+  "productName": "Komercio-app",
+  "files": [
+    "main.js",
+    "storage.js",
+    "index.html",
+    "styles.css",
+    "Komercio-theme.css",
+    "assets/**/*",
+    "renderer.js"
+  ],
+  "asar": false,
+  "win": {
+    "target": "nsis",
+    "icon": "assets/icon/logo.ico"
+  },
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true

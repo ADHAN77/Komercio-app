@@ -1,13 +1,13 @@
-const path = require("path");
-const { app, BrowserWindow, ipcMain } = require("electron");
-const storage = require("./storage");
+import { join } from "path";
+import { app, BrowserWindow, ipcMain } from "electron";
+const storage = require(join(__dirname, 'storage.js'));
 
 let mainWindow;
 
 app.whenReady().then(() => {
     mainWindow = new BrowserWindow({
         fullscreen: true,
-        icon: path.join(__dirname, "assets", "icon", "logo.ico"), //aqui está o ícone
+        icon: join(__dirname, "assets", "icon", "logo.ico"), //aqui está o ícone
         webPreferences: {
             nodeIntegration: true,
             contextIsolation: false,
