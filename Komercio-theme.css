@@ -1,0 +1,75 @@
+.bg-light {
+    background-color: #002b28 !important; /* Verde quase preto */
+  }
+
+:root {
+    --bs-primary: #00ff59;
+    --bs-secondary: #002b28;
+    --bs-body-bg: #002b28;
+    --bs-body-color: #ffffff;
+  }
+  
+  /* Botão primário */
+  .btn-primary {
+    background-color: var(--bs-secondary);
+    border-color: var(--bs-secondary);
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #00581f;
+    border-color: #006624;
+    color: #fff;
+  }
+
+  /* Botão secundário */
+.btn-secondary {
+    background-color: #00ff59;
+    border-color: #00ff59;
+    color: #002b28;
+    font-weight: 600;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #00e654;
+    border-color: #00cc4c;
+    color: #001a18;
+  }
+  
+  /* Fundo e texto */
+  body {
+    background-color: var(--bs-primary);
+    color: #fff;
+  }
+  
+  /* Outros utilitários */
+  .bg-primary {
+    background-color: var(--bs-primary) !important;
+  }
+  
+  .text-primary {
+    color: var(--bs-primary) !important;
+  }
+  
+  .bg-dark {
+    background-color: var(--bs-secondary) !important;
+  }
+  
+  .text-dark {
+    color: var(--bs-secondary) !important;
+  }
+
+  .modal-content {
+    background-color: var(--bs-primary); /* Verde claro */
+    color: #002b28; /* Cor dos textos */
+  }
+  
+  .modal-header,
+  .modal-body,
+  .modal-footer {
+    color: #002b28;
+  }
+  
+  .modal-title {
+    color: #002b28;
+  }

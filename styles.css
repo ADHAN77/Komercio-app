@@ -1,0 +1,58 @@
+
+#productContainer {
+    max-height: 60vh; /* Define um limite de altura */
+    overflow-y: auto; /* Adiciona um scroll automático quando necessário */
+}
+
+#historyContainer {
+    max-height: 50vh; /* Define uma altura máxima */
+    overflow-y: auto; /* Adiciona o scroll automático */
+}
+
+#filterDateBtn {
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+
+#dateFilter {
+    margin-bottom: 8px;
+}
+
+#resetDateBtn {
+    margin-bottom: 8px;
+}
+
+.btn-custom-disabled {
+    background-color: #2e7d32 !important; /* Verde escuro */
+    color: #fff !important;
+    cursor: not-allowed;
+    opacity: 1; /* Deixe visível mesmo estando desabilitado */
+  }
+
+  .card-verde-claro {
+    background-color: #00ff59; /* Verde claro suave */
+    border: 1px solid #c3e6cb;
+    color: #002b28; /* Cor do texto */
+  }
+
+  .card-verde-claro h5,
+    .card-verde-claro p,
+    .card-verde-claro strong,
+    .card-verde-claro span {
+    color: #002b28;
+}
+
+.text-bg-komercio {
+    background-color: #e6fff0 !important; /* Verde claro suave */
+    color: #002b28 !important;            /* Verde escuro nos textos */
+    border-left: 5px solid #00ff59;       /* Faixa verde neon no lado esquerdo */
+    box-shadow: -5px 0 15px #00ff59;      /* Efeito de luz indireta à esquerda */
+  }
+
+  .text-bg-venda {
+    background-color: #00ff59 !important;   /* Verde neon vibrante */
+    color: #002b28 !important;              /* Texto em verde escuro */
+    border-left: 6px solid #002b28;         /* Faixa escura para contraste */
+    box-shadow: 0 0 20px #00ff59;           /* Efeito de brilho ao redor */
+    font-weight: bold;                      /* Destacar ainda mais o texto */
+  }

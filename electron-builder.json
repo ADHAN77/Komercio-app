@@ -1,0 +1,16 @@
+{
+    "appId": "com.VaptVupt-app.electron",
+    "productName": "VaptVupt-app",
+    "copyright": "© 2025 Meu Nome",
+    "directories": {
+        "output": "dist"
+    },
+    "win": {
+        "target": "nsis",
+        "icon": "assets/STARTUP-30.png"
+    },
+    "nsis": {
+        "oneClick": false,
+        "allowToChangeInstallationDirectory": true
+    }
+}
